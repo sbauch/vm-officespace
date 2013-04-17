@@ -1,0 +1,33 @@
+#map {
+	background-image: url('../img/map.png');
+	background-repeat: no-repeat;
+	display: block;
+	margin: 0 auto;
+	height: 582px;
+	position: relative;
+	width: 700px;
+}
+
+.vine {
+	background-image: url('../img/vine.png');
+	background-repeat: no-repeat;
+	border: 0;
+	display: block;
+	height: 32px;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	text-indent: -99999px;
+	position: absolute;
+	width: 32px;
+}
+
+.bathroom {
+	display: block;
+	position: absolute;
+	width: 18px;
+	height: 34px;
+	text-indent: -99999px;
+}
+
+.vine:hover { background-color: #fff; border: 1px solid #fff; }
