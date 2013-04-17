@@ -1,3 +1,4 @@
+body { background-color: #cfd1d3; }
 #map {
 	background-image: url('../img/map.png');
 	background-repeat: no-repeat;
@@ -20,6 +21,21 @@
 	text-indent: -99999px;
 	position: absolute;
 	width: 32px;
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+	
+	-webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    -o-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+     
+    -webkit-transition-property: -webkit-transform, background-color, border;
+    -moz-transition-property: -moz-transform, background-color, border;
+    -o-transition-property: -o-transform, background-color, border;
+    transition-property: transform, background-color, border;
+     
+    overflow:hidden;
 }
 
 .bathroom {
@@ -30,4 +46,20 @@
 	text-indent: -99999px;
 }
 
-.vine:hover { background-color: #fff; border: 1px solid #fff; }
+.vine:hover {
+	background-color: #fff;
+	border: 2px solid #fff;
+	-webkit-transform:rotate(30deg);
+    -moz-transform:rotate(30deg); 
+    -o-transform:rotate(30deg);
+}
+
+#vm-custom {
+	background-color: #013621;
+	background-image: none;
+	color: #fff;
+}
+
+#vm-custom .brand { color: #fff; text-shadow: 0 1px 0 #333; }
+#social a { color: #fff; text-decoration: none; }
+#social a:hover { text-decoration: none; }
