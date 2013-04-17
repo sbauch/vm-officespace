@@ -5189,11 +5189,11 @@ input[type="submit"].btn.btn-mini {
 
 .modal {
   position: fixed;
-  top: 10%;
   left: 50%;
+	top: 2%;
   z-index: 1050;
 	height: auto;
-  margin-left: -280px;
+  margin-left: -140px;
   background-color: #ffffff;
   border: 1px solid #999;
   border: 1px solid rgba(0, 0, 0, 0.3);
@@ -5210,6 +5210,11 @@ input[type="submit"].btn.btn-mini {
           background-clip: padding-box;
 }
 
+.entry-content .twitter-tweet-rendered {
+	max-width: 280px !important;
+	max-height: 100% !important;
+	}
+
 .modal.fade {
   top: -25%;
   -webkit-transition: opacity 0.3s linear, top 0.3s ease-out;
@@ -5219,7 +5224,7 @@ input[type="submit"].btn.btn-mini {
 }
 
 .modal.fade.in {
-  top: 10%;
+  top: 2%;
 }
 
 .modal-header {

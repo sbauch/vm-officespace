@@ -5,20 +5,201 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Bootstrap -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet" media="screen">
+  	<link href="assets/css/style.css" rel="stylesheet" media="screen">
   </head>
   <body>
-    <a href="#myModal" role="button" class="btn" data-toggle="modal">Launch demo modal</a>
-
-      <div id='myModal' class="hide fade modal">
-        <center>
-          <blockquote class="twitter-tweet" style='height:100%;'>
-            <p>More VaynerMedia office space <a href="https://t.co/8W8Y4sL170" title="https://vine.co/v/bFlbxYUiFAW">vine.co/v/bFlbxYUiFAW</a></p>&mdash; VMOfficeSpace (@VMOfficeSpace) <a href="https://twitter.com/VMOfficeSpace/status/324528214217216000">April 17, 2013</a></blockquote>
-<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <!-- Desktop -->
+    <div class='container hidden-phone'>
+      <div id="map">
+    		<a href="#offices-modal" data-toggle="modal"id="offices" class="vine" style="top: 14px; left: 39px">Offices</a>
+    		<a href="#creative-modal" data-toggle="modal" id="creative" class="vine" style="top: 111px; left: 107px">Creative Department</a>
+    		<a href="#winebar-modal" data-toggle="modal" id="winebar" class="vine" style="top: 101px; left: 249px">Wine Bar</a>
+    		<a href="#media-rooms-modal" data-toggle="modal" id="media_rooms" class="vine" style="top: 214px; left: 228px">Media Conference Rooms</a>
+    		<a href="#midwest-modal" data-toggle="modal" id="midwest" class="vine" style="top: 168px; left: 381px">Midwest</a>
+    		<a href="#lgconference-modal" data-toggle="modal" id="lgconference" class="vine" style="top: 121px; left: 488px">Large Conference Room</a>
+    		<a href="#more-office-modal" data-toggle="modal" id="more_office" class="vine" style="top: 290px; left: 537px">More Office Space</a>
+    		<a href="#more-rooms-modal" data-toggle="modal" id="more_rooms" class="vine" style="top: 518px; left: 444px">More Conference Rooms</a>
+    		<a href="#fun-modal" data-toggle="modal" id="fun" class="vine" style="top:  520px; left: 570px">Fun Room</a>
+    		<a href="#kitchen-modal" data-toggle="modal" id="kitchen" class="vine" style="top: 421px; left: 644px">Kitchen</a>
+    		<a href="#bathroom-modal" data-toggle="modal" id="bathroom1" class="bathroom" style="top: 15px; left: 387px">Bathroom</a> <!--- bathrooms go to the same vine -->
+    		<a href="#bathroom-modal" data-toggle="modal" id="bathroom2" class="bathroom" style="top: 129px; left: 657px;">Bathroom</a>
+	    </div>
       
-    </center>
+      <div id='offices-modal' class="hide fade modal">
+        <div class='modal-body'>
+          <blockquote class="twitter-tweet" width='280'>
+            <p>VaynerMedia Offices w/ @<a href="https://twitter.com/garyvee">garyvee</a> 
+              <a href="https://t.co/6uoaKtLNHj" title="https://vine.co/v/bFlA6Bqa5Jz">vine.co/v/bFlA6Bqa5Jz</a>
+            </p>
+            &mdash; VMOfficeSpace (@VMOfficeSpace) 
+            <a href="https://twitter.com/VMOfficeSpace/status/324526637569957888">April 17, 2013</a>
+          </blockquote>
+        </div>
       </div>
+
+      <div id='creative-modal' class="hide fade modal">
+        <div class='modal-body'>
+          <blockquote class="twitter-tweet" width='280'>
+            <p>VaynerMedia Creative Department 
+              <a href="https://t.co/31hyo37r5d" title="https://vine.co/v/bFlmLlK6ObW">vine.co/v/bFlmLlK6ObW</a>
+            </p>
+            &mdash; VMOfficeSpace (@VMOfficeSpace) 
+            <a href="https://twitter.com/VMOfficeSpace/status/324525627002724353">April 17, 2013</a>
+          </blockquote>
+        </div>
+      </div>      
+
+      <div id='winebar-modal' class="hide fade modal">
+        <div class='modal-body'>
+          <blockquote class="twitter-tweet" width='280'>
+            <p>VaynerMedia Wine Bar 
+              <a href="https://t.co/lgx0kZsYH3" title="https://vine.co/v/bFLLq05qJzz">vine.co/v/bFLLq05qJzz</a>
+            </p>
+            &mdash; VMOfficeSpace (@VMOfficeSpace) 
+            <a href="https://twitter.com/VMOfficeSpace/status/324519008789467136">April 17, 2013</a>
+          </blockquote>
+        </div>
+      </div>              
+
+      <div id='media-rooms-modal' class="hide fade modal">
+        <div class='modal-body'>
+          <blockquote class="twitter-tweet" width='280'>
+            <p>Vayner Media Conference Rooms 
+              <a href="https://t.co/iMTLTpCsAV" title="https://vine.co/v/bFlq5uW21gL">vine.co/v/bFlq5uW21gL</a>
+            </p>
+            &mdash; VMOfficeSpace (@VMOfficeSpace) 
+            <a href="https://twitter.com/VMOfficeSpace/status/324527233182085120">April 17, 2013</a>
+          </blockquote>
+        </div>
+      </div>
+      
+      <div id='midwest-modal' class="hide fade modal">
+        <div class='modal-body'>
+          <blockquote class="twitter-tweet" width='280'>
+            <p>VaynerMedia Midwest <a href="https://t.co/565YChJhyw" title="https://vine.co/v/bFlqEZUIjFz">vine.co/v/bFlqEZUIjFz</a></p>&mdash; VMOfficeSpace (@VMOfficeSpace) <a href="https://twitter.com/VMOfficeSpace/status/324527580650807296">April 17, 2013</a>
+          </blockquote>
+        </div>
+      </div>                       
+
+      <div id='lgconference-modal' class="hide fade modal">
+        <div class='modal-body'>
+          <blockquote class="twitter-tweet" width='280'>
+            <p>VaynerMedia Large Conference Room <a href="https://t.co/YkUKzewR9W" title="https://vine.co/v/bFlbbz0xz39">vine.co/v/bFlbbz0xz39</a></p>&mdash; VMOfficeSpace (@VMOfficeSpace) <a href="https://twitter.com/VMOfficeSpace/status/324527828630659072">April 17, 2013</a>
+          </blockquote>
+        </div>
+      </div>                    
+      
+      <div id='more-office-modal' class="hide fade modal">
+        <div class='modal-body'>
+          <blockquote class="twitter-tweet" width='280'>
+            <p>More VaynerMedia office space 
+              <a href="https://t.co/8W8Y4sL170" title="https://vine.co/v/bFlbxYUiFAW">vine.co/v/bFlbxYUiFAW</a>
+            </p>
+            &mdash; VMOfficeSpace (@VMOfficeSpace) 
+            <a href="https://twitter.com/VMOfficeSpace/status/324528214217216000">April 17, 2013</a>
+          </blockquote>
+        </div>
+      </div>      
+    
+      <div id='more-rooms-modal' class="hide fade modal">
+        <div class='modal-body'>
+          <blockquote class="twitter-tweet" width='280'>
+            <p>More VaynerMedia Conference Rooms <a href="https://t.co/x5YHlcr2FW" title="https://vine.co/v/bFlFAlHEQTq">vine.co/v/bFlFAlHEQTq</a></p>&mdash; VMOfficeSpace (@VMOfficeSpace) <a href="https://twitter.com/VMOfficeSpace/status/324544091230711809">April 17, 2013</a>
+          </blockquote>
+        </div>
+      </div>        
+
+      <div id='fun-modal' class="hide fade modal">
+        <div class='modal-body'>
+          <blockquote class="twitter-tweet" width='280'>
+            <p>VaynerMedia Fun Room <a href="https://t.co/yyznPTKK7S" title="https://vine.co/v/bFlxebn9xDe">vine.co/v/bFlxebn9xDe</a></p>&mdash; VMOfficeSpace (@VMOfficeSpace) <a href="https://twitter.com/VMOfficeSpace/status/324546198142849024">April 17, 2013</a>
+          </blockquote>
+        </div>
+      </div>            
+
+      <div id='kitchen-modal' class="hide fade modal">
+        <div class='modal-body'>
+          <blockquote class="twitter-tweet" width='280'>
+            <p>VaynerMedia Kitchen <a href="https://t.co/UmTeVPw8Lt" title="https://vine.co/v/bFlFPhJWYqu">vine.co/v/bFlFPhJWYqu</a></p>&mdash; VMOfficeSpace (@VMOfficeSpace) <a href="https://twitter.com/VMOfficeSpace/status/324544470320287746">April 17, 2013</a>
+          </blockquote>
+        </div>
+      </div>       
+
+      <div id='bathroom-modal' class="hide fade modal">
+        <div class='modal-body'>
+          <blockquote class="twitter-tweet" width='280'>
+            <p>VaynerMedia bathrooms <a href="https://t.co/o5XJohwwwy" title="https://vine.co/v/bFlt6g0rZ7m">vine.co/v/bFlt6g0rZ7m</a></p>&mdash; VMOfficeSpace (@VMOfficeSpace) <a href="https://twitter.com/VMOfficeSpace/status/324543600379715586">April 17, 2013</a>
+          </blockquote>
+        </div>
+      </div>   
+          
+    </div>
+    <!-- Mobile   -->
+    <div class='container visible-phone'>
+
+      <nav class="navbar navbar-fixed-top">
+        <div class="navbar-inner">
+          <div class="container-fluid">
+             <a class="brand" href="/">VinerMedia Office Space</a>
+            <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            <div class="nav-collapse">
+              <ul class="nav" style='display:inline-block;'>
+                <li>
+                  <a href="#">Wine Bar</a>
+                </li>
+                <li>
+                  <a href="#">Offices</a>
+                </li>
+                <li>
+                  <a href="#">Creative Dept</a>
+                </li>              
+              </ul>
+              <ul class="nav" style='display:inline-block;'>
+                <li>
+                  <a href="#">Wine Bar</a>
+                </li>
+                <li>
+                  <a href="#">Wine Bar</a>
+                </li>
+                <li>
+                  <a href="#">Wine Bar</a>
+                </li>              
+              </ul>
+              <ul class="nav" style='display:inline-block;'>
+                <li>
+                  <a href="#">Wine Bar</a>
+                </li>
+                <li>
+                  <a href="#">Wine Bar</a>
+                </li>
+                <li>
+                  <a href="#">Wine Bar</a>
+                </li>              
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div class='row'>
+        <div class='span12'>
+          <blockquote class="twitter-tweet">
+            <p>More VaynerMedia office space 
+              <a href="https://t.co/8W8Y4sL170" title="https://vine.co/v/bFlbxYUiFAW">vine.co/v/bFlbxYUiFAW</a>
+            </p>
+            &mdash; VMOfficeSpace (@VMOfficeSpace) 
+            <a href="https://twitter.com/VMOfficeSpace/status/324528214217216000">April 17, 2013</a>
+          </blockquote>
+        </div>
+      </div>    
+    
+    </div>  
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
-    
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
   </body>
 </html>
