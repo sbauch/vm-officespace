@@ -13,7 +13,7 @@
     <!-- Desktop -->
 	<div class="navbar navbar-fixed-top hidden-phone" style="background-color: #013621">
 		<div id="vm-custom" class="navbar-inner">
-			<div class="container">
+			<div class="container-fluid">
 				<a class="brand" href="#">VaynerMedia Rental Space</a>
 				<div id="social" class="btn-group pull-right">
 					<a href="http://vaynermedia.com" target="_blank" class="btn btn-link"><i class="icon-home icon-large"></i></a>
@@ -25,7 +25,7 @@
 		</div>
 	</div>
 	
-    <div class='container hidden-phone'  style="margin-top: 50px;">
+    <div class='container-fluid hidden-phone'  style="margin-top: 50px;">
       <div id="map">
     		<a href="#offices-modal" data-toggle="modal"id="offices" class="vine" style="top: 14px; left: 39px">Offices</a>
     		<a href="#creative-modal" data-toggle="modal" id="creative" class="vine" style="top: 111px; left: 107px">Creative Department</a>
@@ -40,8 +40,15 @@
     		<a href="#bathroom-modal" data-toggle="modal" id="bathroom1" class="bathroom" style="top: 15px; left: 387px">Bathroom</a> <!--- bathrooms go to the same vine -->
     		<a href="#bathroom-modal" data-toggle="modal" id="bathroom2" class="bathroom" style="top: 129px; left: 657px;">Bathroom</a>
 			<div class="well" style="width: 350px; height: 255px; position: absolute; top:275px; left: 17px;">
-				<p>VaynerMedia is moving to a new building, but we've still got a lease on our old place.  If you're looking for some space in Flatiron, check out our space at 373 Park Ave. South: we made some Vines for you showcasing the space VM has!  Click on a Vine icon to bring up the Tweet and Vine!</p>
-				<p>For more information, contact [INSERT CONTACT INFO AND METHOD HERE].</p>
+				<ul>
+				  <li>The office is located on Park Avenue South between 26th and 27th street.</li>  
+          <li>It is the entire 9th floor of a 12 story building with a doorman.</li> 
+          <li>The space consists of 8,732 rentable square feet.</li>  
+          <li>Targeting a June 1st start date.</li>
+          <li>The lease completed on August 30, 2016.</li>
+          <li>Willing to leave some furniture as part of the deal.</li>
+          <li>Meeting rooms come with improved acoustics (installed panels to improve sound quality)</li>
+        </ul>  
 			</div>
 	    </div>
       
@@ -175,7 +182,7 @@
                   <a href="#creative-mobile">Creative Dept</a>
                 </li>
                 <li>
-                  <a href="#wine-mobile">Wine Bar</a>
+                  <a href="#wine-mobile">Lobby / Wine Bar</a>
                 </li>              
               </ul>
               <ul class="nav" style='display:inline-block;'>
@@ -324,5 +331,16 @@
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-40217977-1']);
+      _gaq.push(['_trackPageview']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
   </body>
 </html>
